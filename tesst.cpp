@@ -67,11 +67,28 @@ int main(){
 //     int size = sizeof(c);
 //     cout<< "Size of a is: "<< size <<endl;
 // 
-    int trial = 'a';
-    cout<< trial << endl;
+    // int trial = 'a';
+    // cout<< trial << endl;
 
-    char lol = 98;
-    cout<< lol << endl;
+    // char lol = 98;
+    // cout<< lol << endl;
+
+    // char ch = 333;
+    // cout<< ch << endl;
+
+    // double divide = 2.01/5;
+    // cout << divide << endl;
+
+    // int a = 2;
+    // int b = 2;
+    // bool first = a==b;
+    // cout << !first << endl;
+
+    // cout << !a << endl;
+
+
+
+
 }
 
 
