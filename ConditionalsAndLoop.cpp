@@ -23,4 +23,12 @@ c>>n;
     int n;
     cin>>n;
     // cout<< "Value of n is: " << n << endl; 
+
+    // if a is positive
+    if(n>0){
+        cout << "N is positive" << endl;
+    }
+    else{
+        cout << "N is Negative" << endl;
+    }
  }
