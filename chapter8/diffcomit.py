@@ -1,12 +1,3 @@
-import os
+for file in "C:\Users\arshd\Desktop\DSA C++\chapter8":
 
-
-# Set the directory containing the files to commit
-directory = os.path.join('C:', 'Users', 'arshd', 'Desktop', 'DSA C++', 'chapter8')
-
-# Iterate over the files in the directory
-for filename in os.listdir(directory):
-  # Build the Git commit command
-  command = "git commit {} -m 'Commit file {}'".format(os.path.join(directory, filename), filename)
-  # Execute the Git commit command
-  os.system(command)
+    do : git add $file; git commit -m "Adding $file" --date="$(shuf -i 1-365 -n 1) days ago"; done
