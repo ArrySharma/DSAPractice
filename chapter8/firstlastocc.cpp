@@ -28,6 +28,7 @@ int binaryfl(int arr[], int size, int k){
         if(arr[m] < k){
             i =  m + 1;
         }   
+        
 
         else if(arr[m] > k){
             j = m - 1;

@@ -31,6 +31,7 @@ int minArray(int arr[], int size){
 
 
 
+
 int main(){
 
     int size;

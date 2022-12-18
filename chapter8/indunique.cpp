@@ -30,6 +30,7 @@ int findunique(int arr[], int size){
 }
 
 
+
 int main(){
 
     int arr[5] = {4,2,2,4,3};

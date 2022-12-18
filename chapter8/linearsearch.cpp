@@ -13,6 +13,7 @@ bool numCheck(int arr[], int size, int numcheck){
 
 
 int main(){
+    
 
     int num;
     cout<< "Number lookup: ";
